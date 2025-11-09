@@ -31,6 +31,7 @@ ret, image_thresh = cv2.threshold(
 )
 # 单通道图也需要表示长宽，所以需要二维数组
 print(image_thresh)
+cv2.imwrite("./twoOpenCv.png", image_thresh)
 # 使用opencv的函数 imshow去显示结果
 # 显示原图
 cv2.imshow("image_np", image_np)
