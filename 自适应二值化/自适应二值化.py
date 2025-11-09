@@ -1,6 +1,6 @@
 # 对图像做自适应二值化的彩色图
 import cv2
-import numpy as np
+# import numpy as np
 
 # 1.读取一张想要进行自适应二值化的彩色图
 image_np = cv2.imread("../image/image.jpg")
