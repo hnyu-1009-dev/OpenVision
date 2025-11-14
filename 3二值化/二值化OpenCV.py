@@ -1,7 +1,7 @@
 # 使用阈值法去二值化一张图像，且图像必须是灰度图
 import cv2
 import numpy as np
-
+ 
 # 使用OpenCV去读取一张图片
 image_np = cv2.imread("../image/huidu.png")
 
